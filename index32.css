@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cognifyz-logo {
+    width: 80px;
+    height: 28px;
+}
+
+@media screen and (min-width: 576px) {
+    .cognifyz-logo {
+        width: 100px;
+        height: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cognifyz-logo {
+        width: 150px;
+        height: 50px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .cognifyz-logo {
+        width: 200px;
+        height: 70px;
+        padding: 5px;
+    }
+}
+
+.navbar-items {
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+    .navbar-items {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+}
+
+.nav-link {
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+@media screen and (min-width: 576px) {
+    .nav-link {
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .nav-link {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .nav-link {
+        font-size: 20px;
+        padding-right: 5px;
+    }
+}
+
+.landing-page-container {
+    min-height: 100vh;
+    background-size: cover;
+    margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .landing-page-container {
+        margin: 12px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .landing-page-container {
+        margin: 15px;
+    }
+}
+
+.headline {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    background-color: orange;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .headline {
+        margin-top: 64px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .headline {
+        font-size: 28px;
+        padding: 15px;
+        margin-top: 90px;
+    }
+}
+
+.home-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 100vh;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 70px;
+}
+
+.home-front-page {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: 992px) {
+    .home-front-page {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 90%;
+    }
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 992px) {
+    .header-container {
+        align-items: flex-start;
+    }
+}
+
+.title {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+    .title {
+        font-size: 36px;
+    }
+}
+
+.sub-title {
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+@media screen and (min-width: 768px) {
+    .sub-title {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .sub-title {
+        font-size: 20px;
+    }
+}
+
+.enroll-button {
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #0786ed;
+    border-radius: 24px;
+    width: 90px;
+    height: 35px;
+    border: none;
+    outline: none;
+}
+
+@media screen and (min-width: 768px) {
+    .enroll-button {
+        font-size: 18px;
+        width: 120px;
+        height: 40px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .enroll-button {
+        font-size: 20px;
+        width: 150px;
+        height: 50px;
+    }
+}
+
+.anchor-btn {
+    color: white;
+    text-decoration: none;
+}
+
+.about-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.image2 {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .image2 {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .image2 {
+        width: 60%;
+        height: 60%;
+    }
+}
+
+.brief-introduction-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.list-items {
+    padding-left: 20px;
+}
+
+.highlights-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.qualifications-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.apply-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+.description {
+    font-family: "Roboto";
+    font-size: 14px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .description {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .description {
+        font-size: 20px;
+    }
+}
+
+.apply-button {
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #0786ed;
+    border-radius: 24px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+@media screen and (min-width: 992px) {
+    .apply-button {
+        font-size: 20px;
+        width: 160px;
+        height: 50px;
+    }
+}
+
+.contact-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .contact-card-container {
+        margin-bottom: 20px;
+    }
+}
+
+.heading {
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .heading {
+        font-size: 36px;
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .heading {
+        font-size: 40px;
+        padding-top: 70px;
+        padding-bottom: 35px;
+    }
+}
+
+.paragraph {
+    font-family: "Roboto";
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .paragraph {
+        font-size: 20px;
+        width: 80%;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .paragraph {
+        font-size: 24px;
+        width: 70%;
+        padding-bottom: 50px;
+    }
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+    .input-container {
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .input-container {
+        width: 80%;
+    }
+}
+
+.input-box {
+    font-family: "Roboto";
+    font-size: 16px;
+    width: 100%;
+    padding: 8px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: grey;
+    border-width: 0.5px;
+    margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .input-box {
+        font-size: 18px;
+        padding: 12px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .input-box {
+        font-size: 20px;
+        padding: 15px;
+        margin: 12px;
+    }
+}
+
+.send-button {
+    font-family: "Roboto";
+    font-size: 14px;
+    width: 80px;
+    height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .send-button {
+        font-size: 16px;
+        width: 120px;
+        height: 60px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .send-button {
+        font-size: 18px;
+        width: 140px;
+        height: 80px;
+    }
+}
+
+.contact-information-container {
+    background-image: linear-gradient(to right, #e65245, #f79974, #de3cc3, #8f60ab, #753cde);
+    height: 15vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    font-family: "Roboto";
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-text {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .footer-text {
+        font-size: 20px;
+    }
+}
+
+.span-text {
+    text-decoration: underline;
+}
